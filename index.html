@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Krishti Das - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body class="light-theme">
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <h1 class="logo">Krishti Das</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#techstack">Tech Stack</a></li>
+        <li><a href="#internships">Internships</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="theme-toggle" aria-label="Toggle Theme"><i class="fas fa-moon"></i></button>
+    </div>
+  </nav>
+
+  <!-- About -->
+  <section id="about" class="about-section">
+    <div class="about-container">
+      <div class="about-img">
+        <img src="imgfolder/Krishti_Das_pink_shirt_photo.png" alt="Krishti Das" class="profile-img"/>
+      </div>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>I am Krishti Das a final year undergraduate student from the domain of Computer Science & Engineering at JIS College of Engineering, Kalyani. I primarily code in Java and C, and have developed a couple of web based
+           applications and AI-driven solutions that can merge technology with a societal impact while learning continuously.</p>
+        <div class="social-links">
+          <a href="https://github.com/KrishtiDas" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/krishti-das-666696283/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:krishtidas2004@gmail.com"><i class="fas fa-envelope"></i></a>
+          <a href="https://medium.com/@krishtidas2004" target="_blank"><i class="fa-brands fa-medium"></i></a>
+          <a href="imgfolder/Krishti_Das_resume.pdf" download><i class="fas fa-download"></i> Download Resume</a>
+          <a href="imgfolder/Krishti_Das_resume.pdf" target="_blank"><i class="fas fa-eye"></i> View Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech Stack -->
+  <section id="techstack">
+    <h2>💻 Tech Stack</h2>
+    <div class="tech-grid">
+      <span>HTML</span><span>CSS</span><span>JavaScript</span>
+      <span>Java</span><span>MERN</span><span>SAP Basics</span>
+    </div>
+  </section>
+
+  <!-- Internships -->
+  <section id="internships">
+    <h2>💼 Internships</h2>
+
+  <!-- internship 1 -->
+  <div class="internship-card">
+    <img src="imgfolder/accenture-logo-black.jpg" alt="Accenture Logo" class="company-logo">
+    <div class="internship-details">
+      <h3>Accenture</h3>
+      <p><strong>Role:</strong> Associate Software Engineer (Package Application Development Associate) Intern</p>
+      <p><strong>Duration:</strong> 2 months ( May 2025 - July 2025 )</p>
+      <p>Assisted in application development using SAP and gained experience in enterprise systems.</p>
+      <div class="cert-dropdown">
+        <button class="cert-btn" data-dropdown="certs-accenture">📜 Certificates</button>
+        <ul class="cert-list" id="certs-accenture">
+          <li><a href="imgfolder/Accenture_internship_completion.png" target="_blank">Internship Certificate</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- internship 2 -->
+  <div class="internship-card">
+    <img src="imgfolder/internship_studio_logo.png" alt="Internship Studio" class="company-logo">
+    <div class="internship-details">
+      <h3>Internship Studio</h3>
+      <p><strong>Role:</strong> Web Design & Developer Intern</p>
+      <p><strong>Duration:</strong> 1 month ( July 2024 - August 2024 )</p>
+      <p>Designed and developed an e-commerce website using HTML, CSS, Bootstrap, and JavaScript.</p>
+      <div class="cert-dropdown">
+        <button class="cert-btn" data-dropdown="certs-studio">📜 Certificates</button>
+        <ul class="cert-list" id="certs-studio">
+          <li><a href="imgfolder/Internship_completion_cert_internship_studio.png" target="_blank">Internship Certificate</a></li>
+          <li><a href="imgfolder/Training_certificate_internship_studio.png" target="_blank">Training Certificate</a></li>
+          <li><a href="imgfolder/Common_internship_studio_Offer-letter.png" target="_blank">Offer Letter</a></li>
+          <li><a href="imgfolder/CIT_certificate.png" target="_blank">CIT Test Certificate</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- internship 3 -->
+  <div class="internship-card">
+    <img src="imgfolder/cipherbyte_logo.jpg" alt="Cipherbyte Technologies" class="company-logo">
+    <div class="internship-details">
+      <h3>Cipherbyte Technologies</h3>
+      <p><strong>Role:</strong> Web Developer Intern</p>
+      <p><strong>Duration:</strong> 1 month ( July 2024 - August 2024 )</p>
+      <p>Built a weather app and a to-do list using HTML, CSS, JavaScript, and real-time API integration.</p>
+      <div class="cert-dropdown">
+        <button class="cert-btn" data-dropdown="certs-cipherbyte">📜 Certificates</button>
+        <ul class="cert-list" id="certs-cipherbyte">
+          <li><a href="imgfolder/Completion_cert_CipherByte_web_dev.png" target="_blank">Internship Certificate</a></li>
+          <li><a href="imgfolder/LOR_web_dev_CipherByte.png" target="_blank">Letter of Recommendation</a></li>
+          <li><a href="imgfolder/Offer-letter_web-dev_CipherByte_Technology.png" target="_blank">Offer Letter</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- internship 4 -->
+  <div class="internship-card">
+    <img src="imgfolder/devtown_in_logo.jpg" alt="Dev Town" class="company-logo">
+    <div class="internship-details">
+      <h3>DEVTOWN</h3>
+      <p><strong>Role:</strong> Full Stack Web Developer Intern</p>
+      <p><strong>Duration:</strong> 6 months ( August 2023 - December 2023 )</p>
+      <p>Built a MERN stack movie booking application with authentication and API integration.</p>
+      <div class="cert-dropdown">
+        <button class="cert-btn" data-dropdown="certs-devtown">📜 Certificates</button>
+        <ul class="cert-list" id="certs-devtown">
+          <li><a href="imgfolder/FSWD_Internship_completion_Devtown.png" target="_blank">Internship Certificate</a></li>
+          <li><a href="imgfolder/LOR_FSWD_Devtown.png" target="_blank">Letter of Recommendation</a></li>
+          <li><a href="imgfolder/FSWD_Training_Completion_devtown.png" target="_blank">Training Certificate</a></li>
+          <li><a href="imgfolder/FSWD_Course_completion_devtown (1).png" target="_blank">Course Completion</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Education -->
+<section id="education" class="education-section">
+  <h2>🎓 Education</h2>
+  <!-- Education card 1 -->
+  <div class="education-card">
+    <img src="imgfolder/JISCELogo.png" alt="JISCE Logo" class="company-logo">
+    <div>
+      <h3>B.Tech in Computer Science</h3>
+      <p><strong>College : </strong> JIS College of Engineering, Kalyani </p>
+      <p><strong>Duration : </strong> 2022 – 2026 </p>
+      <p><strong>Grade : </strong> 8.475 (based on avg till 6th sem)</p>
+      <p><strong>Roles : </strong> President of Science & Environment Club (2025 - Present), Former Sr. General Secretary of Science & Environment Club (2024 - 2025), Former Treasurer of Science & Environment Club (2023 - 2024) </p>
+      <!-- div class="cert-dropdown">
+        <button class="cert-btn" data-dropdown="certs-btech">📜 Certificates</button>
+        <ul class="cert-list" id="certs-btech">
+          <li><a href="imgfolder/btech-degree-certificate.png" target="_blank">Degree Certificate</a></li>
+          <li><a href="imgfolder/marksheet-btech.png" target="_blank">Final Marksheet</a></li>
+        </ul>
+      </div -->
+    </div>
+  </div>
+
+  <!-- Education card 2 -->
+  <div class="education-card">
+    <img src="imgfolder/st_stephen's_school_habra_logo.png" alt="School Logo" class="company-logo">
+    <div>
+      <h3>ISC (XII) - Science Stream </h3>
+      <p><strong>School : </strong> St. Stephen's School, Habra </p>
+      <p><strong>Duration : </strong> 2020 – 2022 </p>
+      <p><strong>Grade : </strong> 80% </p>
+      <p><strong>Roles : </strong> Student Discipline (Senior Prefect) for both the consecutive years. </p>
+      <!-- div class="cert-dropdown">
+        <button class="cert-btn" data-dropdown="certs-hs">📜 Certificates</button>
+        <ul class="cert-list" id="certs-hs">
+          <li><a href="imgfolder/higher-secondary-marksheet.png" target="_blank">Marksheet</a></li>
+        </ul>
+      </div -->
+    </div>
+  </div>
+
+  <!-- Education card 3 -->
+  <div class="education-card">
+    <img src="imgfolder/st_stephen's_school_habra_logo.png" alt="School Logo" class="company-logo">
+    <div>
+     <h3>ISCE (X) - General stream </h3>
+      <p><strong>School : </strong> St. Stephen's School, Habra </p>
+      <p><strong>Duration : </strong> 2008 – 2020 </p>
+      <p><strong>Grade : </strong> 88% </p>
+      <p><strong>Roles : </strong> Class Representative (Senior Monitress) for seven consecutive years.</p>
+      <!--div class="cert-dropdown">
+        <button class="cert-btn" data-dropdown="certs-sec">📜 Certificates</button>
+        <ul class="cert-list" id="certs-sec">
+          <li><a href="imgfolder/secondary-marksheet.png" target="_blank">Marksheet</a></li>
+        </ul>
+      </div -->
+    </div>
+  </div>
+</section>
+
+
+  <!--Projects -->
+<section id="projects">
+  <h2>📂 Projects</h2>
+  <div class="project-grid">
+    <div class="project-card">
+      <h3>VisionPdfTracker :  Minor Project for college</h3>
+      <p> A smart, hands-free PDF or document reader using GazeCloud eye-tracking for real-time gaze-based scrolling, enhancing accessibility and redefining document interaction in your browser as minor project.</p>
+      <p>Tech Stack : GazeCloudAPI, HTML, CSS, JS, WebRTC</p>
+      <div class="project-links">
+        <a href="https://github.com/KrishtiDas/VisionPdfTracker" target="_blank" class="btn github">GitHub</a>
+        <a href="https://vision-pdf-tracker.vercel.app/" target="_blank" class="btn live">Live Demo</a>
+      </div>
+    </div>
+    <div class="project-card">
+      <h3>E-commerce (Frontend section) : Internship Studio</h3>
+      <p>A responsive e-commerce frontend that lets users explore products, filter by categories, and proceed through a sleek checkout form, all wrapped in a modern and user-friendly interface.</p>
+      <p>Tech Stack : HTML, CSS, JavaScript and Bootstrap </p>
+      <div class="project-links">
+        <a href="https://github.com/KrishtiDas/Ecommerce" target="_blank" class="btn github">GitHub</a>
+        <a href="https://daily-shopping-e-commerce-app.netlify.app/" target="_blank" class="btn live">Live Demo</a>
+      </div>
+    </div>
+  </div>
+  <div class="project-grid">
+     <div class="project-card">
+      <h3>WEATHERVUE : Cipherbyte Technologies</h3>
+      <p>A dynamic weather application that fetches real-time data from the OpenWeather API and displays it through a clean maintainable interface.</p>
+      <p>Tech Stack : OpenWeatherAPI, HTML, CSS, JS</p>
+      <div class="project-links">
+        <a href="https://github.com/KrishtiDas/Weathervue" target="_blank" class="btn github">GitHub</a>
+        <a href="https://real-time-weather-view.netlify.app/" target="_blank" class="btn live">Live Demo</a>
+      </div>
+    </div>
+    <div class="project-card">
+      <h3>TO-DO LIST : Cipherbyte Technologies</h3>
+      <p>A simple yet efficient to-do list app to manage daily activities, allowing users to add tasks, mark them as completed with a checkbox, and delete them when done.</p>
+      <p><b>Tech Stack :</b> HTML, CSS, JS</p>
+      <div class="project-links">
+        <a href="https://github.com/KrishtiDas/To-do-list" target="_blank" class="btn github">GitHub</a>
+        <a href="https://daily-list-to-do.netlify.app/" target="_blank" class="btn live">Live Demo</a>
+      </div>
+    </div>
+    <div class="project-card">
+      <h3>Movie Booking Application : DEVTOWN Internship</h3>
+      <p>A movie booking application that allows users to log in securely, browse available shows, and complete bookings, with authentication for real-time data handling.</p>
+      <p><b>Tech Stack :</b> MERN Stack</p>
+      <div class="project-links">
+        <a href="https://github.com/KrishtiDas/movie-book" target="_blank" class="btn github">GitHub</a>
+        <a href="https://drive.google.com/file/d/1_xoUa4MdlRjFGR-jaUPvpNUpcReSk9yd/view" target="_blank" class="btn live">Live Demo</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Certifications -->
+  <section id="certifications">
+    <h2>📜 Certifications</h2>
+    <div class="certifications-container">
+      <div class="cert-card">
+        <h3>Database Management System Course</h3>
+        <p><strong>Issuer:</strong> PREP INSTA</p>
+        <p class="cert-date"><strong>Issued:</strong> August 2025</p>
+        <p><strong>Skills:</strong> DBMS, SQL</p>
+        <a href="imgfolder/Prepinsta_dbms_Krishti_Das.png" target="_blank" class="btn">📜 View Certificate</a>
+      </div>
+      <div class="cert-card">
+        <h3>IBM Generative AI and Prompt Engineering</h3>
+        <p><strong>Issuer:</strong> IBM Skillsbuild</p>
+        <p class="cert-date"><strong>Issued:</strong> December 2024</p>
+        <p><strong>Skills:</strong> Gen AI, Prompting</p>
+        <a href="imgfolder/IBM_Prompt_eng_certificate, Krishti Das.png" target="_blank" class="btn">📜 View Certificate</a>
+      </div>
+      <div class="cert-card">
+        <h3>SAP Fundamentals Training Course</h3>
+        <p><strong>Issuer:</strong> SAP Alliance University</p>
+        <p class="cert-date"><strong>Issued:</strong> September 2024</p>
+        <p><strong>Skills:</strong> SAP basics</p>
+        <a href="imgfolder/SAP_participation_certificate.png"target="_blank" class="btn">📜 View Certificate</a>
+      </div>
+      <div class="cert-card">
+        <h3>Full Stack Web Development Training Course</h3>
+        <p><strong>Issuer:</strong> DEVTOWN</p>
+        <p class="cert-date"><strong>Issued:</strong> December 2023</p>
+        <p><strong>Skills:</strong> MERN Stack</p>
+        <a href="imgfolder/FSWD_Course_completion_devtown (1).png" target="_blank" class="btn">📜 View Certificate</a>
+      </div>
+      <div class="cert-card">
+        <h3>Enhancing Soft Skills and Personality</h3>
+        <p><strong>Issuer:</strong> IIT Kanpur via NPTEL Swayam</p>
+        <p class="cert-date"><strong>Issued:</strong> April 2023</p>
+        <p><strong>Skills:</strong> Soft skills, Personality development</p>
+        <a href="imgfolder/Silver_elite_Enhancing_soft_skill_NPTEL.png" target="_blank" class="btn">📜 View Certificate</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Publications -->
+  <section id="publications">
+    <h2>📰 Paper & Publications </h2>
+    <div class="cards-container">
+      <div class="card">
+        <h3>Daily Expense Tracker: A Behavioral Intervention for Financial Awareness and Discipline</h3>
+        <p><b>Published in:</b> (IJSREM), Volume 09, Issue 05 - May 2025.</p>
+        <p>This publication explores how daily expense tracking can act as a powerful behavioral tool to enhance financial awareness and build discipline.</p>
+        <div class="card-buttons">
+          <a href="https://ijsrem.com/download/daily-expense-tracker-a-behavioral-intervention-for-financial-awareness-and-discipline/" target="_blank" class="btn">📄 View Paper</a>
+          <a href="imgfolder/IJSREM Krishti Das.png" target="_blank" class="btn secondary">📜 View Certificate</a>
+        </div>
+      </div>
+       <div class="card">
+        <h3>A review on the fabrication of Carbon nano-materials by LASER Treatment & its Various techniques</h3>
+        <p><b>Paper presented:</b> (ACMESGA), 22 - Nov 2024.</p>
+        <p>A review paper that I have presented in my college and shows the various ways that help in carbon fabrications using various LASER Treatment.</p>
+        <div class="card-buttons">
+          <a href="imgfolder/A review on Carbon Nanomaterials Fabrication by LASER Treatment.docx" target="_blank" class="btn">📄 View Paper</a>
+          <a href="imgfolder/Certificate_for_presenting_ACMESGA2K24.jpg" target="_blank" class="btn secondary">📜 View Certificate</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section id="achievements">
+    <h2>🏆 Achievements</h2>
+    <div class="achievement-grid">
+      <!-- achievement 1 -->
+      <div class="achievement-card">
+        <h1> 2nd Prize </h1>
+        <p>A "Report Writing Competition"- to celebrate the World Hertiage Day of 2K23</p>
+        <p><b>Issued by:</b> Dept of Computer Science & Technology and Electrical Engineering ; 28th April, 2023</p>
+        <a href="imgfolder/2nd_position_Report_competition.jpg" target="_blank" class="btn">📜 View Certificate</a>
+      </div>
+      <!-- achievement 2 -->
+      <div class="achievement-card">
+        <h1> 3rd Prize </h1>
+        <p>A short video-making on "Sustainable Growth"- to celebrate the Science Day 2K23</p>
+        <p><b>Issued by:</b> Science & Enivronment and Education Club, co-ordinated by BSHU ; 28th Feb, 2023</p>
+        <a href="imgfolder/3rd position for Short-Video competition from Envi Club (2023).jpg" target="_blank" class="btn">📜 View Certificate</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>✉️ Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Krishti Das | Built with ❤️</p>
+  </footer>
+
+  <!-- Modal -->
+  <div id="image-modal" class="modal">
+    <span class="close-btn">&times;</span>
+    <img id="modal-image" src="" alt="Preview">
+    <div class="modal-buttons">
+      <a id="download-btn" href="" download="achievement.png">Download PNG</a>
+      <button id="back-btn">Back</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
